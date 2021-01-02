@@ -1,0 +1,88 @@
+.addressInfo {
+    padding: 25px;
+}
+
+.addressInfo__section {
+    padding: 10px 30px;
+    margin: 0 auto;
+    max-width: 360px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.addressInfo__title {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.addressInfo__title span svg{
+    margin-right: 10px;
+    margin-bottom: -7px;
+}
+
+.addressInfo__address {
+    margin: 20px 0;
+}
+
+
+.billingDetails {
+    border-radius: 24px;
+}
+
+.billingDetails__InputText {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+label {
+    font-weight: 700;
+    margin-right: 20px;
+    width: 150px;
+}
+
+.billingDetails__Input {
+    height: 10px;
+    padding: 8px;
+    border: none;
+    outline-width: 0;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 5px;
+    width: 250px;
+}
+
+.addressInfo__button {
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+@media screen and (max-width: 612px) {
+    .addressInfo__title {
+        margin: 10px 0;
+        font-size: 1.1rem;
+    }
+    
+    .addressInfo__title span svg{
+        margin-right: 10px;
+        margin-bottom: -7px;
+        font-size: 1.5rem;
+    }
+
+    label {
+        font-size: .8rem;
+    }
+    
+    .billingDetails__Input {
+        font-size: .8rem;
+        width: 120px;
+    }
+
+    .billingDetails__InputText {
+        padding-bottom: 3px;
+    }
+}

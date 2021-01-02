@@ -1,0 +1,45 @@
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+.checkout__ad {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkout__email {
+    padding: 5px 10px 0;
+}
+
+.checkout__title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.item-exit-active {
+    transition: .5s all;
+    transform: translateX(200px);
+    opacity: 0;
+}
+
+@media only screen and (max-width:612px) {
+    .checkout {
+        display: block;
+        padding: 0;
+    }
+
+    .checkout__email {
+        font-size: 0.8rem;
+        padding: 5px 10px 0;
+        line-height: 0.5rem;
+    }
+
+    .checkout__title {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+}
